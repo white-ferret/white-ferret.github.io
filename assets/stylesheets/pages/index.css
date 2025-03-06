@@ -1,0 +1,38 @@
+.intro {
+  margin-bottom: 2rem;
+}
+.intro h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.intro p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.intro img {
+  width: 100%;
+}
+
+.download .download-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.download .download-buttons a {
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: #fff;
+}
+.download .download-info {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=index.css.map */
