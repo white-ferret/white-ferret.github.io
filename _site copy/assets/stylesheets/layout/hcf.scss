@@ -1,0 +1,54 @@
+#page--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  > nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .logo {
+      height: 5rem;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      li {
+        a {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+#page--main {
+  > .container {
+    max-width: 120rem;
+    margin: 0 auto 5rem;
+    padding: 2rem;
+  }
+}
+
+#page--footer {
+  padding: 5rem 0;
+  text-align: center;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    border-radius: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+}
